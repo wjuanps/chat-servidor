@@ -29,8 +29,10 @@ public class RunServer {
                     break;
                 }
             }
-        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-        }
+        } catch (ClassNotFoundException 
+                    | InstantiationException 
+                    | IllegalAccessException 
+                    | javax.swing.UnsupportedLookAndFeelException ex) { }
         //</editor-fold>
 
         /* Create and display the form */

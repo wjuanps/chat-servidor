@@ -55,9 +55,9 @@ public class Servidor {
         public void run() {
             String mensagem;
             try {
-            while ((mensagem = scanner.nextLine()) != null) {
-                enviarMensagens(mensagem);
-            }
+                while ((mensagem = scanner.nextLine()) != null) {
+                    enviarMensagens(mensagem);
+                }
             } catch (NoSuchElementException n) {}
         }
     }
